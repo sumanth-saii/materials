@@ -2,6 +2,7 @@ kv = """
 windowmanager:
     Mainscreen:
     Secondscreen:
+    Csescreen:
 <Mainscreen>:
     name:"main"
     RelativeLayout:
@@ -31,6 +32,11 @@ windowmanager:
         pos_hint:{'center_x':0.5,'center_y':0.1}
         on_release:
             app.root.current="main"  
+    MDRectangleFlatButton:
+        text:"CSE"
+        pos_hint:{'center_x':0.5,'center_y':0.6}
+        on_release:
+            app.root.current="main"         
     NavigationLayout:
         ScreenManager: 
             Screen:        
@@ -41,8 +47,9 @@ windowmanager:
                         spacing:30
                         padding:1
                         left_action_items: [["menu",lambda x: nav_drawer.toggle_nav_drawer()]]
-                    Widget:
-            
+                    MDLabel:
+                        text: 'SELECT DEPARTMENT'
+                        halign:'center'
         MDNavigationDrawer:
             id: nav_drawer
             BoxLayout:
@@ -66,13 +73,11 @@ windowmanager:
                     MDList:
                         OneLineListItem:
                             text: 'Contact Mail'
-                            #MDDialog:
-                                #on_release:
-                                #MDDialog:
-                                    #MDDialog ('principal@rmkec.ac.in')
                         OneLineListItem:
                             text: 'Contact Number'
                         OneLineListItem:
-                            text: 'Share The App'              
+                            text: 'Share The App' 
+                              
+                                       
             
 """

@@ -5,6 +5,10 @@ from suppoter import kv
 from kivy.core.window import Window
 
 
+class Csescreen(Screen):
+    pass
+
+
 class Mainscreen(Screen):
     pass
 
@@ -22,7 +26,7 @@ Window.size = (360, 600)
 
 class demo(MDApp):
     def build(self):
-        self.theme_cls.primary_palette= 'Green'
+        self.theme_cls.primary_palette = 'Green'
         k = Builder.load_string(kv)
         return k
 
