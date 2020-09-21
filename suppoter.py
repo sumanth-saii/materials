@@ -2171,7 +2171,7 @@ ScreenManager:
                                 secondary_text: "CS8791"
                                 tertiary_text: "Unit 2-5"
                                 on_release:
-                                    app.itcs8791u5()
+                                    app.itcs8791()
                             
                             ThreeLineListItem:
                                 text:"Principles of Management"
