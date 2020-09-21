@@ -2165,35 +2165,11 @@ ScreenManager:
                         left_action_items: [["keyboard-backspace",lambda x: app.change_s()]]
                     ScrollView:
                         do_scroll_x: False
-                        MDList:     
+                        MDList:    
                             ThreeLineListItem:
                                 text:"Cloud Computing"
                                 secondary_text: "CS8791"
-                                tertiary_text: "Unit-1"
-                                on_release:
-                                    app.itcs8791u1()
-                            ThreeLineListItem:
-                                text:"Cloud Computing"
-                                secondary_text: "CS8791"
-                                tertiary_text: "Unit-2"
-                                on_release:
-                                    app.itcs8791u2()
-                            ThreeLineListItem:
-                                text:"Cloud Computing"
-                                secondary_text: "CS8791"
-                                tertiary_text: "Unit-3"
-                                on_release:
-                                    app.itcs8791u3()
-                            ThreeLineListItem:
-                                text:"Cloud Computing"
-                                secondary_text: "CS8791"
-                                tertiary_text: "Unit-4"
-                                on_release:
-                                    app.itcs8791u4()
-                            ThreeLineListItem:
-                                text:"Cloud Computing"
-                                secondary_text: "CS8791"
-                                tertiary_text: "Unit-5"
+                                tertiary_text: "Unit 2-5"
                                 on_release:
                                     app.itcs8791u5()
                             
