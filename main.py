@@ -1454,7 +1454,7 @@ class RMKEGURU(MDApp):
     def map(self):
     	webbrowser.open("https://maps.app.goo.gl/3aZMKXGEHraKPxNg9") 
     def share(self):
-    	webbrowser.open("")	       
+    	webbrowser.open(""https://api.whatsapp.com/send?text=bit.ly/RMKE-Guru"")	       
 
 
 RMKEGURU().run()
